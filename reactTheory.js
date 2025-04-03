@@ -38,22 +38,57 @@ import { Component } from "react";
 
 //? Class Based Components
 
-class CBC extends Component {
-    render(){
-        return (
-            <div>
+// class CBC extends Component {
+//     render(){
+//         return (
+//             <div>
 
-            </div>
-        )
-    }
-}
+//             </div>
+//         )
+//     }
+// }
 
 
 //? Function Based Component
 
-const FBC = () => {
-    return (
-        <div>
-        </div>
-    )
+// const FBC = () => {
+//     return (
+//         <div>
+//         </div>
+//     )
+// }
+
+//? JSX 
+// JSX stands for JavaScript XML. It is a syntax extension of JavaScript, which allow us to write HTML within JavaScript inside React.
+
+//? JSX vs Regular JavaScript
+//                      JSX                                     Regular JavaScript
+//              HTML inside JavaScript                      Uses Standard JavaScript Syntax
+//         Used in React to define UI components        Used everywhere in JavaScript development
+//          Easier to read & write, like HTML              More complex, harder to visualize UI
+//          Needs to be compiled using Babel                    No extra compilation needed
+
+{
+// JSX Allows you to write HTML elements in JavaScript and place them in the DOM without using methods like createElement().
+// const element = <h1>Hello, JSX!</h1>;
+
+// Regular JS Requires using methods like createElement() to create DOM elements.
+// const element = React.createElement('h1', null, 'Hello, JavaScript!');
 }
+
+{
+// JSX Allows embedding JavaScript expressions within curly braces {}.
+// const name = 'World';
+// const element = <h1>Hello, {name}!</h1>;
+
+// Regular JavaScript Requires template literals for embedding JavaScript.
+// const name = 'World';
+// const element = React.createElement('h1', null, `Hello, ${name}!`);
+}
+
+{
+// JSX Needs to be compiled into regular JavaScript using a tool like Babel before it can be understood by the browser.
+
+// Regular JavaScript Does not require compilation and can be run directly in the browser.
+}
+
