@@ -6,8 +6,10 @@ const App = () => {
     <div>
       <Cbc/>
       <Fbc/>
+      <Cbc/>
+      <Fbc/>
     </div>
   )
 }
 
-export default App
+export default App;
